@@ -1,0 +1,4 @@
+a) We guess that it would have taken us 6 hours if we had done it manually.
+b) our conclusions from the exercise are that bash is a useful programing language, especially in editing large amount of files, as well as in searching specific data in them.
+The concept of the exercise can be useful in many cases, such as editing and searching files/texts in computer memory, tracking stocks up and downs on the market, compare prices of products on the net, etc.
+c) We should run the script every hour, therefore we can run it with the command watch -n 3600 (3600 sec= 1 hour). In addition we would create a new file - used.txt - which include all the websites that were already checked, and compare every new website with that file, so if the website exists in used.txt we can delete him, else we would add him to used.txt and to resaults.csv.
